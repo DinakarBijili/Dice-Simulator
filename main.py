@@ -4,14 +4,19 @@ x = "r"
 print("---------DICE ROLLINGR GAME----------")
 while x == "r":
     randNum = random.randint(1,6)
-    user = input("Press r to Roll the Dice : ")
+    user = input("Press Enter to Roll the Dice : ")
+    print("Press q to Quit -")
     print("\n")
-    if randNum == 1:
+    if user == "q":
+        print("Hope You Enjoyed!")
+        quit()
+    elif randNum == 1:
         print("-------")
         print("       ")
         print("   o   ")
         print("       ")
         print("-------")
+
     
     elif randNum == 2:
         print("-------")
