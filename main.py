@@ -1,8 +1,7 @@
 import random
 
-x = "r"
 print("---------DICE ROLLINGR GAME----------")
-while x == "r":
+while True:
     randNum = random.randint(1,6)
     user = input("Press Enter to Roll the Dice : ")
     print("Press q to Quit -")
